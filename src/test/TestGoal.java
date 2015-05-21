@@ -5,7 +5,6 @@ import org.junit.Test;
  * Created by User on 21.05.2015.
  */
 public class TestGoal {
-
     @Test
     public void testCheckNameCondition1(){
         Goal goal = new Goal();
