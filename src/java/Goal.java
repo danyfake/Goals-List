@@ -124,7 +124,7 @@ public class Goal {
         return description;
     }
 
-    private boolean checkNameCondition(String name) {
+    public boolean checkNameCondition(String name) {
         if ((name.length() < 6) || (name.length() > 20)) {
             return false;
         }
@@ -138,7 +138,7 @@ public class Goal {
         return true;
     }
 
-    private boolean checkDescriptionCondition(String description) {
+    public boolean checkDescriptionCondition(String description) {
         if ((description.length() < 10) || (description.length() > 50)) {
             return false;
         }

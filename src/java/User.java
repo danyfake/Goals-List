@@ -57,6 +57,10 @@ public class User {
         return this.nickName;
     }
 
+    public void readNickname(){
+
+    }
+
     public int changePhoneNumber() throws IOException {
         String phoneNumber = "";
         int number = 0;
